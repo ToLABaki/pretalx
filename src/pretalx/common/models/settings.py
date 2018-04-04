@@ -26,6 +26,7 @@ settings_hierarkey.add_type(LazyI18nString,
 
 
 settings_hierarkey.add_default('show_schedule', 'True', bool)
+settings_hierarkey.add_default('show_sneak_peek', 'True', bool)
 settings_hierarkey.add_default('export_html_on_schedule_release', 'True', bool)
 settings_hierarkey.add_default('custom_domain', '', str)
 
